@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #111111 !important;
+    box-sizing: none;
+}
+.navbar-toggler .collapsed{
+    background-color: white !important;
+}
+.navbar-toggler-icon{
+    color: white !important;
+    background-color: white;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    /* color: var(--bs-navbar-active-color); */
+    color: grey !important;
+    font-weight: bolder;
+
+}
+.navbar-nav .nav-item .nav-link{
+    color: grey;
+    font-weight: bolder;
+}
+.Dashboard_button{
+    background-color: #4A80E2;
+    padding: 7px 30px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+}
+.nav-underline .nav-item{
+    width: 48%;
+    text-align: center;
+}
+
+.nav-underline > .nav-item .nav-link{
+    color: white;
+}
+.nav-underline .nav-item .nav-link.active{
+    color: #4A80E2;
+    width: 100%;
+    /* text-align: center; */
+}
+
+.card{
+    border-radius: 10px;
+    padding: 20px;
+    width: 15rem;
+    margin: 10px;
+    background-color: #1B1B1B !important;
+    
+}
+.product-header{
+    display: flex;
+    color: white;
+}
+.coinName{
+    padding: 0 0 0 10px;
+}
+.coinName span{
+    font-weight: bold;
+}
+.product-content  button{
+    background-color: transparent;
+    border: 2px solid #7CC578;
+    color: #7CC578;
+    border-radius: 20px;
+    padding: 5px 20px;
+    outline: none;
+}
+.product-content h5 {
+    color: #7CC578;
+}
+.product-content p {
+    color: grey;
+}
